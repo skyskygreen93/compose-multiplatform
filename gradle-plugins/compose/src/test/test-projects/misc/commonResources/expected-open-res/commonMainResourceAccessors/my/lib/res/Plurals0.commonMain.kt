@@ -18,7 +18,7 @@ internal fun _collectCommonMainPlurals0Resources(map: MutableMap<String, PluralS
     map.put("numberOfSongsAvailable", CommonMainPlurals0.numberOfSongsAvailable)
 }
 
-public val Res.plurals.numberOfSongsAvailable: PluralStringResource
+public val MyRes.plurals.numberOfSongsAvailable: PluralStringResource
     get() = CommonMainPlurals0.numberOfSongsAvailable
 
 private fun init_numberOfSongsAvailable(): PluralStringResource = org.jetbrains.compose.resources.PluralStringResource(

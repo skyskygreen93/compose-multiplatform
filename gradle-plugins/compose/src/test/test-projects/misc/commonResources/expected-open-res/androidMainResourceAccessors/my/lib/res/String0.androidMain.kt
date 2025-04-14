@@ -18,7 +18,7 @@ internal fun _collectAndroidMainString0Resources(map: MutableMap<String, StringR
   map.put("android_str", AndroidMainString0.android_str)
 }
 
-public val Res.string.android_str: StringResource
+public val MyRes.string.android_str: StringResource
   get() = AndroidMainString0.android_str
 
 private fun init_android_str(): StringResource = org.jetbrains.compose.resources.StringResource(

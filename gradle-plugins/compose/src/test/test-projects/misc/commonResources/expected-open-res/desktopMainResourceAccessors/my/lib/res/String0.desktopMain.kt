@@ -18,7 +18,7 @@ internal fun _collectDesktopMainString0Resources(map: MutableMap<String, StringR
   map.put("desktop_str", DesktopMainString0.desktop_str)
 }
 
-public val Res.string.desktop_str: StringResource
+public val MyRes.string.desktop_str: StringResource
   get() = DesktopMainString0.desktop_str
 
 private fun init_desktop_str(): StringResource = org.jetbrains.compose.resources.StringResource(

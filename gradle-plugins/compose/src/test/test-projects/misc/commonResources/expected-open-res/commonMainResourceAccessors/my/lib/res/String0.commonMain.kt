@@ -46,7 +46,7 @@ internal fun _collectCommonMainString0Resources(map: MutableMap<String, StringRe
   map.put("str_template", CommonMainString0.str_template)
 }
 
-public val Res.string.PascalCase: StringResource
+public val MyRes.string.PascalCase: StringResource
   get() = CommonMainString0.PascalCase
 
 private fun init_PascalCase(): StringResource = org.jetbrains.compose.resources.StringResource(
@@ -56,7 +56,7 @@ private fun init_PascalCase(): StringResource = org.jetbrains.compose.resources.
   )
 )
 
-public val Res.string._1_kebab_case: StringResource
+public val MyRes.string._1_kebab_case: StringResource
   get() = CommonMainString0._1_kebab_case
 
 private fun init__1_kebab_case(): StringResource = org.jetbrains.compose.resources.StringResource(
@@ -66,7 +66,7 @@ private fun init__1_kebab_case(): StringResource = org.jetbrains.compose.resourc
   )
 )
 
-public val Res.string.app_name: StringResource
+public val MyRes.string.app_name: StringResource
   get() = CommonMainString0.app_name
 
 private fun init_app_name(): StringResource = org.jetbrains.compose.resources.StringResource(
@@ -76,7 +76,7 @@ private fun init_app_name(): StringResource = org.jetbrains.compose.resources.St
   )
 )
 
-public val Res.string.camelCase: StringResource
+public val MyRes.string.camelCase: StringResource
   get() = CommonMainString0.camelCase
 
 private fun init_camelCase(): StringResource = org.jetbrains.compose.resources.StringResource(
@@ -86,7 +86,7 @@ private fun init_camelCase(): StringResource = org.jetbrains.compose.resources.S
   )
 )
 
-public val Res.string.hello: StringResource
+public val MyRes.string.hello: StringResource
   get() = CommonMainString0.hello
 
 private fun init_hello(): StringResource = org.jetbrains.compose.resources.StringResource(
@@ -96,7 +96,7 @@ private fun init_hello(): StringResource = org.jetbrains.compose.resources.Strin
   )
 )
 
-public val Res.string.`info_using_release_$x`: StringResource
+public val MyRes.string.`info_using_release_$x`: StringResource
   get() = CommonMainString0.`info_using_release_$x`
 
 private fun `init_info_using_release_$x`(): StringResource = org.jetbrains.compose.resources.StringResource(
@@ -106,7 +106,7 @@ private fun `init_info_using_release_$x`(): StringResource = org.jetbrains.compo
   )
 )
 
-public val Res.string.multi_line: StringResource
+public val MyRes.string.multi_line: StringResource
   get() = CommonMainString0.multi_line
 
 private fun init_multi_line(): StringResource = org.jetbrains.compose.resources.StringResource(
@@ -116,7 +116,7 @@ private fun init_multi_line(): StringResource = org.jetbrains.compose.resources.
   )
 )
 
-public val Res.string.str_template: StringResource
+public val MyRes.string.str_template: StringResource
   get() = CommonMainString0.str_template
 
 private fun init_str_template(): StringResource = org.jetbrains.compose.resources.StringResource(

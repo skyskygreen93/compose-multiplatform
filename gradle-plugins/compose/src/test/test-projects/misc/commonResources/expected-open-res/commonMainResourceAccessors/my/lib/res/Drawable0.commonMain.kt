@@ -34,7 +34,7 @@ internal fun _collectCommonMainDrawable0Resources(map: MutableMap<String, Drawab
   map.put("vector_2", CommonMainDrawable0.vector_2)
 }
 
-public val Res.drawable._3_strange_name: DrawableResource
+public val MyRes.drawable._3_strange_name: DrawableResource
   get() = CommonMainDrawable0._3_strange_name
 
 private fun init__3_strange_name(): DrawableResource = org.jetbrains.compose.resources.DrawableResource(
@@ -44,7 +44,7 @@ private fun init__3_strange_name(): DrawableResource = org.jetbrains.compose.res
   )
 )
 
-public val Res.drawable.camelCaseName: DrawableResource
+public val MyRes.drawable.camelCaseName: DrawableResource
   get() = CommonMainDrawable0.camelCaseName
 
 private fun init_camelCaseName(): DrawableResource = org.jetbrains.compose.resources.DrawableResource(
@@ -54,7 +54,7 @@ private fun init_camelCaseName(): DrawableResource = org.jetbrains.compose.resou
   )
 )
 
-public val Res.drawable.`is`: DrawableResource
+public val MyRes.drawable.`is`: DrawableResource
   get() = CommonMainDrawable0.`is`
 
 private fun init_is(): DrawableResource = org.jetbrains.compose.resources.DrawableResource(
@@ -64,7 +64,7 @@ private fun init_is(): DrawableResource = org.jetbrains.compose.resources.Drawab
   )
 )
 
-public val Res.drawable.vector: DrawableResource
+public val MyRes.drawable.vector: DrawableResource
   get() = CommonMainDrawable0.vector
 
 private fun init_vector(): DrawableResource = org.jetbrains.compose.resources.DrawableResource(
@@ -78,7 +78,7 @@ private fun init_vector(): DrawableResource = org.jetbrains.compose.resources.Dr
   )
 )
 
-public val Res.drawable.vector_2: DrawableResource
+public val MyRes.drawable.vector_2: DrawableResource
   get() = CommonMainDrawable0.vector_2
 
 private fun init_vector_2(): DrawableResource = org.jetbrains.compose.resources.DrawableResource(

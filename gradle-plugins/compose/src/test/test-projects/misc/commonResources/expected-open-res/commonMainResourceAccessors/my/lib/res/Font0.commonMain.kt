@@ -18,7 +18,7 @@ internal fun _collectCommonMainFont0Resources(map: MutableMap<String, FontResour
   map.put("emptyFont", CommonMainFont0.emptyFont)
 }
 
-public val Res.font.emptyFont: FontResource
+public val MyRes.font.emptyFont: FontResource
   get() = CommonMainFont0.emptyFont
 
 private fun init_emptyFont(): FontResource = org.jetbrains.compose.resources.FontResource(
